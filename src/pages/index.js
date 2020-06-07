@@ -19,11 +19,12 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO title="Home" />
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <h1>Unfortunately you are too late <span>😔</span>.</h1>
+          <h1>Drawing... <span>🚀</span></h1>
+          {/* <h1>Unfortunately you are too late <span>😔</span></h1> */}
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <h3>Game Over.</h3>
+          {/* <h3>Game Over.</h3> */}
         </div>
         <div style={{ marginTop: '80px', display: 'flex', justifyContent: 'center' }}>
 
