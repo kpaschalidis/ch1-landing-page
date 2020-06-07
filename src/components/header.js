@@ -6,6 +6,7 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `rebeccapurple`,
+      margin: '0 auto',
       marginBottom: `1.45rem`,
     }}
   >
@@ -14,14 +15,17 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: 'flex',
+        justifyContent: 'center'
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: '0 auto' }}>
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
+            margin: '0 auto'
           }}
         >
           {siteTitle}

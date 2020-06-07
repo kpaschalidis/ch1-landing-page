@@ -28,16 +28,16 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
-          margin: `0 auto`,
+          margin: `60px auto`,
           maxWidth: 960,
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={{display: 'flex', justifyContent: 'center'}}>
+          © {new Date().getFullYear()} {'  '}
+          {` - `}
+          <a href="https://etherscan.io/address/0x5a6D9FDfEF70f1Bc669293cd6B0d48E37f2805E2">Contract</a>
         </footer>
       </div>
     </>
